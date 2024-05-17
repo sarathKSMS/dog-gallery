@@ -1,0 +1,43 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+.container {
+ 
+text-align: center;
+padding: 5px;
+border: solid black 1px;
+
+margin: 10px;
+width: fit-content;
+background-color: gray;
+ 
+}
+.ctr{
+
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows:repeat(2, 1fr);
+
+
+}
+
+/* .box{
+  background-color: silver;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: center;
+  border: solid black 1px;
+}
+img{
+  width: 380px;
+  margin: 3px;
+  padding: 3px;
+}
+
+.dogs{
+  border: solid black 1px;
+  gap: 5px;
+  height: 380px;
+} */
